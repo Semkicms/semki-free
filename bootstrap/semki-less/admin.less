@@ -1,0 +1,289 @@
+/* Палитра админки
+ * #CFCFD0 светло-серый
+ * #3C4B8A синий
+ * #4F95E0 голубой
+ * #C4C6D1 светло-серый с оттенком
+ * #707377 серый
+ * #FA5A07 оранж
+ * #FCA275 светло-оранж
+*/
+ 
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #f7f8f8;
+}
+
+h1 {
+    font-size:  28px;
+	margin: 15px 0;
+}
+
+.navbar-admin i.fa {
+   color: #fff;
+}
+
+i.fa {
+   color: #444;
+}
+
+.mytable_null {
+    margin: 0;
+}
+
+.table.mytable_null > tbody > tr > td {
+    padding: 0;
+    border: none;
+}
+
+a.font-avesome {
+    margin-left:  4px;
+}
+
+/*
+ * если вошёл админ - компенсация фиксированного админ-меню
+ */
+ 
+body.padding_top_50 {
+    padding-top: 50px; 
+}
+
+/*
+ * админ-меню
+ */
+ 
+.navbar-admin {
+    background-color: #3C4B8A;
+}
+
+.navbar-admin a {
+    color: #fff;
+}
+
+.navbar-admin .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-admin .nav > li > a:hover,.navbar-admin .nav > li > a:focus {
+   background-color: #344178;
+}
+
+.navbar-admin .nav .open > a,.navbar-admin .nav .open > a:hover,.navbar-admin .nav .open > a:focus  {
+    background-color: #344178;
+}
+
+#nav_top_edit {
+    background-color: #fff;
+    border-bottom: 2px solid #e2e2e2;
+	margin-bottom: 20px;
+}
+
+#tmpl_edit_nav {
+    margin: 15px 0 20px;
+}
+
+/*
+ * навигация сайта
+ */
+ 
+#site_nav {
+    margin: 0 0 20px;
+}
+
+/*
+ * my_head
+ */
+ 
+#my_head {
+    padding:  14px 0;
+}
+
+#logo a {
+    font-weight: bold;
+    font-size: 22px;
+    color: #222;
+}
+
+#logo i {
+    font-size: 22px;
+    color: #e10000;
+}
+
+/*
+ * sortable
+ */ 
+ 
+.my-handle {
+    cursor: move;
+    cursor: -webkit-grabbing;
+}
+
+/*
+ * sortable animation
+ */
+ 
+.sortable-ghost, .sortable-ghost .m_block, .sortable-ghost .delete_row {
+  opacity: .3;
+  background: #999 !important;
+}
+
+#listC {
+  border: 2px dashed #f60;
+  min-height: 100px
+}
+
+/*
+ * panels
+ */
+ 
+.panel-heading {
+    padding: 4px 15px;
+}
+
+.panel {
+    margin-bottom: 10px;
+}
+
+.block_image img {
+    max-width:  100%;
+    padding-bottom: 10px;
+}
+
+.mupanel-body-null {
+    padding: 15px 0 0;
+}
+
+/*
+ * modal window
+ */
+
+#img_holst_inner {
+    position: relative;
+}
+
+#img_holst:not(:empty) {
+    background: #f2f2f2;
+    padding:  15px;
+	margin-bottom: 10px;
+}
+
+#form_crop {
+    display:  none;
+    background: #f2f2f2;
+    padding:  15px 15px 0;
+    margin: 15px 0 0;
+}
+
+#editor {
+    margin-top: 10px;
+}
+
+a#delete_img {
+    color: #333;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+a#delete_img:hover {
+    color: red;
+}
+
+/*
+ * footer
+ */
+
+#footer {
+    padding: 15px 0 0;
+    font-size:  12px;
+    color: #999;
+    margin-top: 30px;
+    border-top: 1px solid #d9d9d9;
+}
+
+#corresp .label {
+	font-size: 14px;
+	color: #333;
+	padding: 10px 0 2px;
+	display: inline-block;
+
+}
+
+/*
+ * вспомогательные стили
+ */
+ 
+div.clear_6 {
+    clear: both;
+    height: 6px;
+}
+
+label.error {
+	font-weight: normal;
+	color: #a94442;
+	font-size: 12px;
+}
+
+sup {
+    color: red;
+}
+
+.err_txt {
+	color: red;
+}
+
+.mini_font {
+	font-size: 12px;
+	color: #999;
+}
+
+/*
+ * табы
+ */
+ 
+.tab-content {
+	padding: 20px;
+	background: #fff;
+	border-left: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+/*
+ * @media
+ */
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    
+    .navbar-admin .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+    }
+    
+    .navbar-admin .dropdown-menu > li > a:hover, .navbar-admin .dropdown-menu > li > a:focus {
+    background-color: #344178;
+    }
+
+}
+
+
+/*
+ * myLess
+ */
+
+/*
+ * отступы
+ */
+ 
+.top-buffer-10 {
+  margin-top: 10px;
+}
+
+.top-buffer-20 {
+  margin-top: 20px;
+}
+
+.right-buffer-6 {
+    margin-right: 6px;
+}

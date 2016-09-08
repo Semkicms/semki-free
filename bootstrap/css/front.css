@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/*
+ * если вошёл админ - компенсация фиксированного админ-меню, отступ добавляется через js
+ */
+body.padding_top_50 {
+  padding-top: 50px;
+}
+/*
+ * админ-меню
+ */
+.navbar-admin {
+  background-color: #3C4B8A;
+  border-color: #3C4B8A;
+}
+.navbar-admin .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-admin a {
+  color: #fff;
+}
+.navbar-admin .nav > li > a:hover,
+.navbar-admin .nav > li > a:focus {
+  background-color: #344178;
+}
+.navbar-admin .nav .open > a,
+.navbar-admin .nav .open > a:hover,
+.navbar-admin .nav .open > a:focus {
+  background-color: #344178;
+}
+/*
+ * формы
+ */
+sup {
+  color: red;
+}
+/*
+ * footer
+ */
+#footer {
+  padding: 15px 0 0;
+  font-size: 12px;
+  color: #999;
+  margin-top: 30px;
+  border-top: 1px solid #d9d9d9;
+}
+#corresp .label {
+  font-size: 15px;
+  color: #999;
+  padding: 10px 0 2px;
+  display: inline-block;
+}
+/*
+ * блоки
+ */
+.block_image img {
+  max-width: 100%;
+  padding-bottom: 10px;
+}
+/*
+ * myless
+ */
+/*
+ * colors
+ */
+/*
+ * header
+ */
+#head {
+  background: #FF3000;
+}
+#leaderbord {
+  background: #FF3000;
+}
+#page-head {
+  background: #FF3000;
+}
+/*
+ * main
+ */
+#page {
+  background: #fff;
+  padding: 0 30px;
+}
